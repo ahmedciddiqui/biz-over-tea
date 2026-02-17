@@ -1,0 +1,78 @@
+:root{
+   --primary: #415225;
+    --primary-light: #83b240;
+    --secondary: #172600;
+    --deep-color: #121212;
+}
+
+.login_page_logo{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.table-header{
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.add-button , .action-button{
+    background-color: var(--primary);
+    color: #fff;
+}
+.add-button:hover{
+    background-color: var(--primary-light);
+    color: #fff;
+}
+.sidebar-background{
+    background-color: var(--primary);
+    
+}
+
+.sidebar-wrapper .sidebar-menu > .nav-item > .nav-link.active:not(:hover)
+ {
+    color: var(--lte-sidebar-menu-active-color);
+    background-color: var(--primary-light);
+}
+
+.no-scrollbar {
+    overflow-y: auto;      /* allow scrolling */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+.sidebar-brand{
+    background-color: #fff;
+    color: #000;
+    height: 4rem !important;
+}
+.nav-sidebar .nav-item > .nav-link {
+  position: relative;
+
+  > .float-right {
+    margin-top: -7px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+  }
+}
+
+.nav-link > .right,
+  .nav-link > p > .right {
+    position: absolute;
+    right: 1rem;
+    top: .7rem;
+
+    i,
+    span {
+      margin-left: .5rem;
+    }
+
+    &:nth-child(2) {
+      right: 2.2rem;
+    }
+  }
+
+  
