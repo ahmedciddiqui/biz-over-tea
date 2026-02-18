@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Business Over Tea | Nuvanta</title>
+    <title>Business Over Tea</title>
     <meta name="description" content="Business Over Tea — a private, invite-only founders circle. An initiative by Nuvanta Group." />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('includes/business-over-tea/images/nuvanta-fav.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('includes/business-over-tea/images/nuvanta-fav.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('includes/business-over-tea/images/logo.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('includes/business-over-tea/images/logo.png') }}">
 
-    <meta property="og:title" content="Business Over Tea | Nuvanta" />
+    <meta property="og:title" content="Business Over Tea" />
     <meta property="og:description" content="A private founders circle. Networking with rules. Quick introductions, one real discussion, and tea connections." />
     <meta property="og:type" content="website" />
 
@@ -38,11 +38,7 @@
 
                 
                 <div class="collapse navbar-collapse" id="navbarCollapses">
-                    <div class="navbar-nav ms-auto p-4 p-lg-0">
-                        <a href="{{url('/')}}" class="brand-item">
-                            <img src="{{ asset('includes/business-over-tea/images/nuvanta-fav.png') }}" alt="Nuvanta Group Ltd"/>
-                            <span>Nuvanta Group Ltd</span>
-                        </a>
+                    <div class="navbar-nav ms-auto p-4 p-lg-0">                        
                         <a class="nav-item nav-link" href="#about">About</a>
                         <a class="nav-item nav-link" href="#forwho">For who</a>
                         <a class="nav-item nav-link" href="#how">How it works</a>
@@ -62,10 +58,10 @@
         <div class="container">
         <div class="foot">
             <div>
-            <div style="font-weight:800; color:var(--text);">Powered by Nuvanta Group Ltd</div>
+            <div style="font-weight:800; color:var(--text);">Initiated by <a href="https://nuvantagroupltd.com/">Nuvanta Group Ltd</a></div>
             <div>Business Over Tea — a private circle for SME founders</div>
             </div>
-            <div>© <span id="year"></span> Nuvanta. All rights reserved.</div>
+            <div>© <span id="year"></span> Business Over Tea. All rights reserved.</div>
         </div>
         </div>
     </footer>
