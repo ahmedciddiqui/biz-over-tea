@@ -59,7 +59,7 @@
         <div class="foot">
             <div>
             <div style="font-weight:800; color:var(--text);">Initiated by <a href="https://nuvantagroupltd.com/">Nuvanta Group Ltd</a></div>
-            <div>Business Over Tea — a private circle for SME founders</div>
+            <div>Business Over Tea — a private circle for SME founders" remove this line</div>
             </div>
             <div>© <span id="year"></span> Business Over Tea. All rights reserved.</div>
         </div>

@@ -18,7 +18,7 @@
 
                       <h1>Business Over Tea</h1>
 
-                      <h3>A private circle for SME founders</h3>
+                      <h3>A private circle for founders, business owners & decision-makers.</h3>
 
                       <p class="one">Real conversations. </p>
                       <p class="two">Trusted founders.</p>
@@ -34,7 +34,7 @@
                     
 
                     <!-- Updated copy: founders-led but not founders-exclusive -->
-                    <p class="lead">Business Over Tea is a private, invite-only circle created for founders and business owners who believe the best insights don’t come from stages — they come from honest conversations.</p>
+                    <p class="lead">Business Over Tea is a private, invite-only circle created for founders, business owners & decision-makers who believe the best insights don’t come from stages — they come from honest conversations.</p>
 
                     <div class="pillRow" aria-label="Key attributes">
                       <span class="pill">Invite-only</span>
@@ -58,7 +58,7 @@
                   <div class="heroInner">
                     <p class="h2mini">Not a networking event.</p>
                     <p class="rightText">
-                      This is a <b>conversation among equals</b> — built for founders who value depth over noise.
+                      This is a <b>conversation among equals</b> — built for people who value depth over noise.
                     </p>
 
                     <div class="quote">
@@ -125,7 +125,7 @@
               <li>Founders & co-founders</li>
               <li>Business owners & partners</li>
               <li>CEOs & managing directors</li>
-              <li>Entrepreneurs running active businesses</li>
+              <li>Decision-makers running active businesses</li>
             </ul>
           </div>
 
@@ -182,7 +182,7 @@
             <div>
               <h2 style="margin-top:0;">What happens in a session?</h2>
               <ul>
-                <li>Founder introductions (brief & meaningful)</li>
+                <li>Member introductions (brief & meaningful)</li>
                 <li>Open discussion on real challenges</li>
                 <li>Experience sharing (not advice preaching)</li>
                 <li>Quiet listening and thoughtful exchange</li>
@@ -335,7 +335,7 @@
 
           <p style="margin:0; color:var(--muted);">
             Some conversations don’t need a stage. Some connections don’t need noise. They just need time, trust, and tea.
-            <br /><b style="color:var(--text)">Business Over Tea</b> — a private founders circle.
+            <br /><b style="color:var(--text)">Business Over Tea</b> — a private circle for founders, business owners & decision-makers.
           </p>
         </div>
       </div>
