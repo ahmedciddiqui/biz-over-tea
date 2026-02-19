@@ -307,7 +307,7 @@
                 <option>Founder / Co-founder</option>
                 <option>Owner / Partner</option>
                 <option>CEO / Managing Director</option>
-                <option>Other (active business leader)</option>
+                <option>Other (active decision maker)</option>
               </select>
               <span class="text-danger error-msg" data-error="role"></span>
             </div>
