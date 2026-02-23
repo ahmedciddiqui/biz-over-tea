@@ -46,6 +46,15 @@ class InvitationRequestMail extends Mailable
         );
     }
 
+    public function build()
+    {
+        return $this->subject('Invitation Request')
+                    ->view('emails.invitation_request')
+                    ->with([
+                        'data' => $this->data
+                    ]);
+    }
+
     /**
      * Get the attachments for the message.
      *

@@ -48,16 +48,16 @@ class ContactController extends Controller
                 $validated = $validator->validated();
 
                 // Send Email
-                //Mail::to('bizovertea@nuvantagroupltd.com')->send(new InvitationRequestMail($validated));
-                 Notification::route('mail', 'bizovertea@nuvantagroupltd.com')
-                    ->notify(new SystemNotification(
-                        'New Business Over Tea Invitation Request',
-                        $validated,
-                        'Go to Dashboard',
-                        route('investor.dashboard'),
-                        true,
-                        'website.emails.invitation_request'
-                    ));
+                Mail::to('bizovertea@nuvantagroupltd.com')->send(new InvitationRequestMail($validated));
+                //  Notification::route('mail', 'bizovertea@nuvantagroupltd.com')
+                //     ->notify(new SystemNotification(
+                //         'New Business Over Tea Invitation Request',
+                //         $validated,
+                //         'Go to Dashboard',
+                //         route('investor.dashboard'),
+                //         true,
+                //         'emails.invitation_request'
+                //     ));
                 // Save to DB
                 InvitationRequest::create($validated);
 
@@ -86,17 +86,17 @@ class ContactController extends Controller
                 $validated = $validator->validated();
 
                 // Send Email
-                //Mail::to('invest@nuvantagroupltd.com')->send(new ContactMail($validated));
+                Mail::to('invest@nuvantagroupltd.com')->send(new ContactMail($validated));
               
-                Notification::route('mail', 'invest@nuvantagroupltd.com')
-                ->notify(new SystemNotification(
-                    'New Contact Request',
-                    $validated,
-                    'Go to Dashboard',
-                    route('investor.dashboard'),
-                    true,
-                    'website.emails.email'
-                ));
+                // Notification::route('mail', 'invest@nuvantagroupltd.com')
+                // ->notify(new SystemNotification(
+                //     'New Contact Request',
+                //     $validated,
+                //     'Go to Dashboard',
+                //     route('investor.dashboard'),
+                //     true,
+                //     'website.emails.email'
+                // ));
 
                 // Save to DB
                 Contact::create($validated);
